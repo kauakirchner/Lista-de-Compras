@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(to left,#630a41,#75125e, #ad2da1);
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.inputProduto{
+    display: block;
+    border-radius: 10px;
+    max-width: 200px;
+    height: 20px;
+    margin-top: 30px;
+    padding: 0 10px;
+    border: 2px solid #111;
+}
+
+.input:focus{
+    border: 2px solid #630a41;
+}
+
+
+.btn{
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: transparent; 
+    border: 2px solid #111;   
+}
+
+.btn:hover{
+    background-color: #111;
+    color: white;
+    transition: .3s;
+    transition-delay: .3s;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.content{
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#checkbox{
+    filter: invert(1000%); 
+    margin-right: 20px;
+    transform: scale(1.5);
+    filter: hue-rotate(290deg) brightness(1.7);
+
+}
+
+ .card{
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    margin: 25px;
+    
+} 
+
+.btnsContainer{
+    flex: 1;
+
+}
+
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+
+.label{
+    flex-grow: 1;
+}
+
+.listaCompras{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.lineinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnDelete{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+

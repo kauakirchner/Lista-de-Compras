@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de compras</title>
+    <link rel="shortcut icon" href="./img/favicon.webp" type="image/x-icon">
+    <script src="./Js/index.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Faça Sua lista de compras</h1>
+        <hr>
+    </header>
+    <main>
+        <div class="card">
+            <div class="lineinput">
+                <input type="text" id="produto" placeholder="Insira seu produto" class="inputProduto">
+                <div class="btnsContainer">
+                    <button id="salva" class="btn">salvar</button>
+                    <button  id="deletar" class="btn">Deletar</button>
+                </div>
+            </div>
+            <div class="content">
+                <div>
+                    <span>
+                        Lista de produtos
+                        <hr>
+                    </span>
+                </div>
+                <div id="listaCompras" class="listaCompras">
+
+                </div>
+                <p id="valorTotal">Valor Total: </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
