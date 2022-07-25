@@ -1,6 +1,4 @@
-# Projeto1DIH
-Primeiro projeto, Lista de compras!
-Breve descr sobre minhas dificuldades:
-tive bastante dificuldade com a lógica do projeto,  lógica é um ponto fraquíssimo meu.
-porém indo devagar, pesquisando bastante, com ajuda das aulas da semana e dicas dos meus colegas, consegui chegar a esse resultado!
+<h3>Primeiro projeto do curso DevInHouse, lista de compras!!</h3>
+Com este sistema você pode cadastrar produtos em sua lista, excluir um produto específico e excluir todos.
+Os produtos que você adiciona ficam salvos no localStorage, então caso você atualize a página ou feche a aba, quando voltar eles ainda estarão lá.
 
